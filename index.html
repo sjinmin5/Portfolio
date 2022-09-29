@@ -25,14 +25,20 @@
         </div>
         <div class="navbar__menu">
                 <ul class="navbar__menu">
-                <li class="navbar__menu__item active">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My Work</li>
-                <li class="navbar__menu__item">Contact</li>
+                <li class="navbar__menu__item active" data-link="#home">Home</li>
+                <li class="navbar__menu__item" data-link="#about">About</li>
+                <li class="navbar__menu__item"
+                data-link="#skills">Skills</li>
+                <li class="navbar__menu__item" data-link="#work">My Work</li>
+                <li class="navbar__menu__item" data-link="#contact">Contact</li>
             </ul>
         </div>
     </nav>
+
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+    </button>
 
     <!-- Home -->
     <section id="home">
@@ -58,7 +64,7 @@
         <p>
             • Registered Health Information Technician (South Korea) with strong knowledge of <br />medical terminology, cancer registration, and Electronic Medical Record (EMR)<br />
             • Currently enrolled at Sheridan College (Oakville, ON) to study Computer Programming<br />
-            • Interested in software engineering in healthcare field
+           
         </p>
         <div class="about__majors">
             <div class="major">
@@ -73,7 +79,7 @@
                     <i class="fa-brands fa-java"></i>
                 </div>
                 <h2 class="major__title">Back-end</h2>
-                <div class="major__description">Java, JavaScript</div>
+                <div class="major__description">Java, Spring Boot</div>
             </div>
             <div class="major">
                 <div class="major__icon">
@@ -217,7 +223,7 @@
                     class="project__img"
                     target="_blank"
                 >
-                <img src="imgs/projects/project1.png" alt="project1">
+                <img src="imgs/projects/website.PNG" alt="project1">
                 <div class="project__description">
                     <h3>Portfolio Website</h3>
                     <span>Portfolio Website with HTML, CSS and JavaScript</span>
@@ -231,21 +237,21 @@
                     class="project__img"
                     target="_blank"
                 >
-                <img src="imgs/projects/project1.png" alt="project1">
+                <img class="website__img "src="imgs/projects/shoppingList.PNG" alt="project2">
                 <div class="project__description">
-                    <h3>Shopping Cart Application</h3>
-                    <span>Shopping Cart Application with HTML, CSS and JavaScript</span>
+                    <h3>Shopping List Application</h3>
+                    <span>Shopping List Application with HTML, CSS and JavaScript</span>
                 </div>
             </a>
             </div>
     
             <div class="project">
                 <a 
-                    href="https://github.com/sjinmin5/Portfolio" 
+                    href="https://github.com/sjinmin5/IssueTracker.git" 
                     class="project__img"
                     target="_blank"
                 >
-                <img src="imgs/projects/project1.png" alt="project1">
+                <img src="imgs/projects/issuetracker.png" alt="project3">
                 <div class="project__description">
                     <h3>Issue Tracker</h3>
                     <span>GUI Application with Java FX which tracks issues depends on the user</span>
